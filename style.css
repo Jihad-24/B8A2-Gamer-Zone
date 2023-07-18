@@ -272,8 +272,8 @@ main {
 
 /* GENRES style section */
 .GENRES {
-    
- 
+
+
     padding: 90px;
     border-radius: 20px;
 
@@ -302,9 +302,107 @@ main {
 .GENRES-items:hover {
     border: 2px solid #F948B2;
     color: #FF42A5;
+    cursor: pointer;
+}
+
+/* footer style section */
+footer {
+    padding-bottom: 50px;
+    background: #0B0223;
+}
+
+.footer-container {
+    text-align: center;
+
+
+}
+
+.footer-container P {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+.footer-logo img {
+    width: 3rem;
+    height: 2rem;
+    margin-right: 10px;
+}
+
+.footer-logo h3 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.footer-logo h3 span {
+    color: #ff42a5;
 }
 
 
+.footer-content>ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.footer-content li {
+    list-style: none;
+    margin-right: 20px;
+    padding: 20px;
+
+}
+
+.footer-content li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+.footer-icons ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: #FFF;
+    gap: 20px;
+}
+
+.footer-icons li {
+    list-style: none;
+    padding: 20px;
+}
+
+.footer-icons li i {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+.footer-policy>ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    color: rgba(255, 255, 255, 0.60);
+    margin-bottom: 10px;
+}
+
+.footer-policy li {
+    cursor: pointer;
+    list-style: none;
+    margin-right: 20px;
+    padding: 20px;
+
+}
 
 
 
