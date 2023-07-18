@@ -418,6 +418,7 @@ footer {
     }
 
     nav,
+    .nav-menu > ul,
     .banner-container {
         flex-direction: column;
     }
@@ -478,7 +479,6 @@ footer {
         padding: 50px;
     }
     nav,
-    .nav-menu > ul,
     .banner-container {
         flex-direction: column;
     }
