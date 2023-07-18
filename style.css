@@ -1,0 +1,75 @@
+/* font family */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header style section */
+header {
+    padding: 0px 100px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 3rem;
+    height: 2rem;
+    margin-right: 10px;
+}
+
+.logo h3 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.logo h3 span {
+    color: #ff42a5;
+}
+
+.nav-menu>ul {
+    display: flex;
+}
+
+.nav-menu li {
+    list-style: none;
+    color: #3C354F;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.nav-menu li a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #3C354F;
+}
+
+.follow-menu {
+    margin-top: -5px;
+    padding: 5px;
+    /* border: 1px solid red; */
+    border-radius: 5px;
+    background: rgba(11, 2, 35, 0.10);
+}
+
+.follow-menu small,
+i {
+    margin-right: 5px;
+}
+
+.follow-menu #youtube {
+    color: red;
+}
+
+.follow-menu #tiktok {
+    color: black;
+}
