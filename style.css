@@ -45,6 +45,7 @@ nav {
     color: #3C354F;
     font-size: 1.1rem;
     font-weight: 500;
+    margin: 10px;
 }
 
 .nav-menu li a {
@@ -274,7 +275,7 @@ main {
 .GENRES {
 
 
-    padding: 90px;
+    margin-bottom: 90px;
     border-radius: 20px;
 
 }
@@ -460,13 +461,14 @@ footer {
     }
 
     .GENRES {
-        padding: 0px;
+        margin-bottom: 20px;
     }
 
     .GENRES-container {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         padding: 15px;
     }
+
 }
 
 
@@ -504,7 +506,7 @@ footer {
     }
 
     .GENRES {
-        padding: 0px;
+        margin-bottom: 40px;
     }
 
     .GENRES-container {
