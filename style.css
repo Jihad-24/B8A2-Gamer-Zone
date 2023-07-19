@@ -274,8 +274,8 @@ main {
 
 /* GENRES style section */
 .GENRES {
-
-
+    display: flex;
+    justify-content: center;
     margin-bottom: 90px;
     border-radius: 20px;
 
@@ -284,15 +284,19 @@ main {
 .GENRES-container {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     gap: 20px;
+    justify-content: center;
 }
 
 .GENRES-items {
     display: flex;
     gap: 10px;
     align-items: center;
+    justify-content: center;
     border-radius: 50px;
     background: #FFF;
+    padding: 5px;
 
 }
 
@@ -306,6 +310,7 @@ main {
     color: #FF42A5;
     cursor: pointer;
 }
+
 
 /* footer style section */
 footer {
@@ -419,7 +424,7 @@ footer {
     }
 
     nav,
-    .nav-menu > ul,
+    .nav-menu>ul,
     .banner-container {
         flex-direction: column;
     }
@@ -479,6 +484,7 @@ footer {
     header {
         padding: 50px;
     }
+
     nav,
     .banner-container {
         flex-direction: column;
